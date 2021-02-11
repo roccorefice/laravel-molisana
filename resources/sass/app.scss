@@ -2,11 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Nunito, Sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
 
 .d-flex {
     display: flex;
     flex-wrap: wrap;
+}
+
+.justify_center {
+    justify-content: center;
 }
 
 header {
@@ -32,7 +42,18 @@ header {
 }
 
 .prodotti {
+    text-align: center;
     img {
         height: 300px;
+        margin: 30px;
+    }
+    h2 {
+        font-style: italic;
+        text-align: center;
+        font-size: 36px;
+        background-color: #CCE1E6;
+        height: 60px;
+        width: 100%;
+        line-height: 60px;
     }
 }
