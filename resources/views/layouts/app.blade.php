@@ -3,6 +3,7 @@
     @include('layouts.head')
     <body>
         @include('partials.header')
+        @yield('main_content')
         
     </body>
 </html>
