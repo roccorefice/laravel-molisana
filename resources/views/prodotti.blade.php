@@ -3,10 +3,14 @@
 
 <!-- tag title -->
 @section('title')
-    Prodotti
+Prodotti
 @endsection
 
 <!-- main -->
 @section('main_content')
-    contenuti dei prodoti
+    <section class="prodotti d_flex">
+        @foreach ($db_pasta as $pasta)
+            <img src=" {{ $pasta['src'] }} " alt="">
+        @endforeach
+    </section>
 @endsection

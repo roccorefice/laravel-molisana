@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 header {
   text-align: center;
 }
@@ -28,5 +33,9 @@ header nav a {
 header nav a:hover {
   color: #002D75;
   text-decoration: underline;
+}
+
+.prodotti img {
+  height: 300px;
 }
 
