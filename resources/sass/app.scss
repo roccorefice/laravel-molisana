@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    img {
+        height: 200px;
+    }
+    nav {
+        background-color: #B1D281;
+        height: 80px;
+        a {
+            text-decoration: none;
+            line-height: 80px;
+            font-size: 1.6rem;
+            color: black;
+            padding: 0 15px;
+        }
+        a:hover {
+            color: #002D75;
+            text-decoration: underline;
+        }
+    }
+}
