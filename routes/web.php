@@ -37,5 +37,6 @@ Route::get('prodotti', function () {
 
 //CONTATTI
 Route::get('contatti', function () {
+    
     return view('contatti');
 })-> name('contacts');

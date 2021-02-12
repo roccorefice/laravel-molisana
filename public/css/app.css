@@ -125,3 +125,19 @@ header nav .active {
   cursor: pointer;
 }
 
+.contatti {
+  margin: auto;
+  text-align: center;
+  padding: 100px;
+  line-height: 40px;
+}
+
+.contatti h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.contatti p {
+  font-size: 24px;
+}
+
