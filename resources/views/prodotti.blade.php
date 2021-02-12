@@ -8,8 +8,10 @@ Prodotti
 
 <!-- main -->
 @section('main_content')
+<section style="background-image: url('{{ asset("img/fondo-pag-speciali.jpg")}}')">
+
     <!-- sezione pasta lunga -->
-    <section class="prodotti" style="background-image: url('{{ asset("img/fondo-pag-speciali.jpg")}}')">
+    <section class="prodotti" >
         <h2>LE LUNGHE</h2>
         <div class="container">
             @foreach ($db_pasta as $pasta)
@@ -30,7 +32,7 @@ Prodotti
     </section>
     
     <!-- sezione pasta corta -->
-    <section class="prodotti" style="background-image: url('{{ asset("img/fondo-pag-speciali.jpg")}}'); ">
+    <section class="prodotti">
         <h2>LE CORTE</h2>
         <div class="container">
             @foreach ($db_pasta as $pasta)
@@ -51,7 +53,7 @@ Prodotti
     </section>
     
     <!-- sezione pasta cortissima -->
-    <section class="prodotti" style="background-image: url('{{ asset("img/fondo-pag-speciali.jpg")}}')">
+    <section class="prodotti">
         <h2>LE CORTISSIME</h2>
         <div class="container">
             @foreach ($db_pasta as $pasta)
@@ -69,6 +71,7 @@ Prodotti
             @endforeach
         </div>
     </section>
+</section>
 
 
 @endsection
