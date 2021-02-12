@@ -123,5 +123,25 @@ return[
             "peso": "500g",
             "descrizione": "Altro elemento cult della famiglia de lo Spaghetto Quadrato (N.1 Spaghetto Quadrato. Una new entry che sarà molto apprezzata sia dai consumatori che dagli chef, perché il Ditale Quadrato è un formato deliziosamente piccolo ma sostanzioso.<br>A dispetto del nome che fa pensare ad una pastina è un formato di pasta assolutamente versatile, adatto a moltissime ricette di primi piatti.<br>La sua consistenza soda si sprigiona in bocca con un\'esplosione di emozioni, grazie agli spessori corposi, al colore elegantemente ambrato, alla texture delicatamente ruvida, cangiante e piacevolissima al tatto che trattiene il condimento sulla superficie.<br>Il Ditale Quadrato sembra ideale per preparazioni strutturate come la ricetta con crema di broccoletto siciliano, calamari e pomodori semi secchi profumata al limone e carbone d\'olive nere."
         }
+     ]',
+
+
+     "data_home" => '[
+        {
+            "src" : "https://www.lamolisana.it/wp-content/uploads/revslider/timeline/2013-2-img.png",
+            "descrizione": "I nostri 5 sfarinati decorticati a pietra"
+        },
+        {
+            "src" : "https://www.lamolisana.it/wp-content/uploads/revslider/timeline/2016-2-img.png",
+            "descrizione": "Nuovo integrale: con più vitamine e ricco di fibre"
+        },
+        {
+            "src" : "https://www.lamolisana.it/wp-content/uploads/2019/07/2019-img.png",
+            "descrizione": "Cento anni di pasta La Molisana"
+        },
+        {
+            "src" : "https://www.lamolisana.it/wp-content/uploads/revslider/timeline/1912-img.png",
+            "descrizione": "Da oggi la nostra tenacia è certificata"
+        }
      ]'
     ];

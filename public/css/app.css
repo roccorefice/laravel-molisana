@@ -51,6 +51,27 @@ header nav .active {
   font-weight: bold;
 }
 
+.home {
+  text-align: center;
+}
+
+.home .item {
+  margin: 20px;
+  text-align: center;
+  display: inline-block;
+  justify-content: center;
+}
+
+.home img {
+  height: 500px;
+}
+
+.home p {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
 .prodotti {
   text-align: center;
 }

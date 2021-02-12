@@ -15,16 +15,24 @@ use Illuminate\Support\Facades\Route;
 
 //HOME
 Route::get('/', function () {
-    return view('welcome');
+    $db_home = json_decode(config('dati.data_home'), true);
+    return view('welcome', compact('db_home'));
 })-> name('home');
 
 
 //PRODOTTI
 Route::get('prodotti', function () {
-    
     $db_pasta = json_decode(config('dati.data'), true);
     return view('prodotti', compact('db_pasta'));
 })-> name('products');
+
+
+//singolo PRODOTTO
+// Route::get('prodotti/{id}', function ($id) {
+//     $db_pasta = json_decode(config('dati.data'), true);
+//     $prodotto = $db_pasta[$id];
+//     return view('prodotti', compact('id'));
+// })-> name('products');
 
 
 //CONTATTI
