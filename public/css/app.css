@@ -41,12 +41,25 @@ header nav a {
 }
 
 header nav a:hover {
-  color: #002D75;
+  color: white;
   text-decoration: underline;
+}
+
+header nav .active {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
 }
 
 .prodotti {
   text-align: center;
+}
+
+.prodotti .card {
+  height: auto;
+  width: auto;
+  display: inline-block;
+  position: relative;
 }
 
 .prodotti img {
@@ -62,5 +75,32 @@ header nav a:hover {
   height: 60px;
   width: 100%;
   line-height: 60px;
+}
+
+.prodotti .hover {
+  padding: -200px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0%;
+}
+
+.prodotti .hover img {
+  height: 50px;
+}
+
+.prodotti .hover h3 {
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.prodotti .card:hover .hover {
+  opacity: 100%;
+  cursor: pointer;
 }
 

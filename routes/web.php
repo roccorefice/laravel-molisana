@@ -16,7 +16,7 @@ use Illuminate\Support\Facades\Route;
 //HOME
 Route::get('/', function () {
     return view('welcome');
-});
+})-> name('home');
 
 
 //PRODOTTI
@@ -145,10 +145,10 @@ Route::get('prodotti', function () {
      ]';
     $db_pasta = json_decode($data, true);
     return view('prodotti', compact('db_pasta'));
-});
+})-> name('products');
 
 
 //CONTATTI
 Route::get('contatti', function () {
     return view('contatti');
-});
+})-> name('contacts');
